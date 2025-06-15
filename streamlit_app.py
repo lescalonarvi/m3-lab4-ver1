@@ -6,14 +6,14 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
-from snowflake.snowpark.context import get_active_session
+#from snowflake.snowpark.context import get_active_session
 from snowflake.core import Root # requires snowflake>=0.8.0
 
 # Install snowflake.core
 
 # Get the current credentials
 
-session = get_active_session()
+#session = get_active_session()
 
 st.set_page_config(page_title="Avalanche Data Set",
                     page_icon="🏔️",
